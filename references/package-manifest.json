@@ -1,0 +1,567 @@
+{
+  "date": "2026-10-24",
+  "episode_notes": 54,
+  "transcripts": 54,
+  "source_files": [
+    {
+      "path": "references/episode-notes/01_welcome-to-neighborhood-art-supply.md",
+      "sha256": "58313cde6712ec1c944118a7aebb56814b97bb698a0739d3a05f14c520e36288",
+      "bytes": 4013
+    },
+    {
+      "path": "references/episode-notes/02_8-key-reasons-why-music-projects-fail-to-grow.md",
+      "sha256": "3d3da4ba1dce61b5a2ddfe248030812adce2a17ed7b1e28abc701c468bb0a143",
+      "bytes": 4218
+    },
+    {
+      "path": "references/episode-notes/03_how-to-start-trends-others-will-follow-in-mus.md",
+      "sha256": "e4c781233998b2725d0597fc99faa7dbb99c9491cdd8a6b6f7cd469b74ece25e",
+      "bytes": 5792
+    },
+    {
+      "path": "references/episode-notes/04_how-to-find-your-brands-personality-live-bran.md",
+      "sha256": "48ca2616b7b8c8b13fa70595616612cf3afb81bb30b474608f45b7fdf632906e",
+      "bytes": 4909
+    },
+    {
+      "path": "references/episode-notes/05_flosstradamus-do-it-different-how-to-make-you.md",
+      "sha256": "97355932aafdcf217264ca9fbc3bf69e6624ccb23f095b31573b1958f6320713",
+      "bytes": 4724
+    },
+    {
+      "path": "references/episode-notes/06_stop-wasting-your-time-a-time-management-guid.md",
+      "sha256": "5a3362a3cc6870723fb23890c628bb75f770df7824a3323a2b6e329702ef8990",
+      "bytes": 5142
+    },
+    {
+      "path": "references/episode-notes/07_how-top-artists-build-their-audiences-thru-br.md",
+      "sha256": "33524bd86ad55b24265a0f7dc132a1fe2fa2a003df936bbad8dbe8dcefd70f8c",
+      "bytes": 4503
+    },
+    {
+      "path": "references/episode-notes/08_find-your-unique-purpose-live-branding-sessio.md",
+      "sha256": "162cb14e7a7d5c9398cbefc2a5f1799f95cc2ca9a0644db5c43ac4e3da6a2067",
+      "bytes": 4780
+    },
+    {
+      "path": "references/episode-notes/09_henry-fong-5-ways-to-create-a-sustainable-car.md",
+      "sha256": "d83a31b3f10c6626e808ab8d6d13593cfc0b9c0803c43544ba1bd900481445ab",
+      "bytes": 5196
+    },
+    {
+      "path": "references/episode-notes/10_how-to-make-your-content-more-shareable-in-15.md",
+      "sha256": "3cba7e7cc4b2213e09b40b8c49c6aa1cf7b84742181b43752b69feedd1749e9b",
+      "bytes": 4670
+    },
+    {
+      "path": "references/episode-notes/11_wuki-how-to-know-if-you-re-being-authentic.md",
+      "sha256": "c02a4bab1ef21f7a641f7457471adb8e2a6ba0736d4721a0a6ec432bd7819c25",
+      "bytes": 5139
+    },
+    {
+      "path": "references/episode-notes/13_wenzday-how-to-build-a-strong-relationship-wi.md",
+      "sha256": "51717d9f4f04fd7562957a245012941f9aa8634bee741aa8171bb05faae4939b",
+      "bytes": 6414
+    },
+    {
+      "path": "references/episode-notes/14_chris-alba-4-ways-to-approach-modern-music-br.md",
+      "sha256": "7268072e4ae2f28ee27e0f2838095bb9062f5c8cda6ee18d7a8e73cc126cb829",
+      "bytes": 5089
+    },
+    {
+      "path": "references/episode-notes/15_fetish-mindset-is-everything-an-approach-to-m.md",
+      "sha256": "337f3c4c0203292c51aa36d79c3497f49dcdc2b6f4c85db67bbded49fd1a5565",
+      "bytes": 6241
+    },
+    {
+      "path": "references/episode-notes/17_party-favor-how-to-stand-out-in-a-crowded-spa.md",
+      "sha256": "ee58c45de5f2f4c9139ad5af19cc5a3d1dba9911e9e842c5a8b6df8d80a06d99",
+      "bytes": 4914
+    },
+    {
+      "path": "references/episode-notes/18_the-difference-between-a-50-000-dj-vs-2-000.md",
+      "sha256": "9d4c34a7014749778da0bc0b9cf4447f0d64a4241ca0a34fbe25b10e7b4c7a02",
+      "bytes": 3956
+    },
+    {
+      "path": "references/episode-notes/20_this-could-make-you-one-of-the-best-artists-i.md",
+      "sha256": "f2d688997a1849975ecd57bbdbe8e207a52de2afc05e197da71a28da530d681a",
+      "bytes": 5461
+    },
+    {
+      "path": "references/episode-notes/21_a-trak-what-the-f-ck-is-branding-a-trak-on-cu.md",
+      "sha256": "d198729fec4461d83f97efdfbcd9750e72fd9839f7377a31bcf1ac827ea5d246",
+      "bytes": 5199
+    },
+    {
+      "path": "references/episode-notes/22_20-years-of-music-industry-knowledge-in-30-mi.md",
+      "sha256": "cea7928a5ef661827ab7c3c4ec5e7b7296244e8cf094d5ce545b0eb155046077",
+      "bytes": 6846
+    },
+    {
+      "path": "references/episode-notes/23_saymyname-how-to-find-your-authentic-self-as.md",
+      "sha256": "283342435518ce17dd97a7d85226448f9b40bab1ad2f8b1a741dbd39a949d010",
+      "bytes": 4764
+    },
+    {
+      "path": "references/episode-notes/24_how-to-build-a-cult-following-becoming-a-mast.md",
+      "sha256": "ae5b8c86d0c6013920ec88f471c4ebc485e5a12828250d355b2faf2d64484544",
+      "bytes": 6274
+    },
+    {
+      "path": "references/episode-notes/25_3-tools-to-make-big-things-happen-for-your-mu.md",
+      "sha256": "7fdb1da2caed165c8fd10b6b4dfd64916f4fc68b7c4ac74eacaaf21193ad7aa7",
+      "bytes": 5003
+    },
+    {
+      "path": "references/episode-notes/26_how-to-attract-fans-and-keep-them-for-life.md",
+      "sha256": "b1a57c565abb4d1182f02abb5c703447ec7142a122acaf6320dfd57ba34103fd",
+      "bytes": 5228
+    },
+    {
+      "path": "references/episode-notes/27_storytelling-on-steroids-create-a-cult-fan-ba.md",
+      "sha256": "d4a2e92654ca9579ddb9eafd20136f3469b325e63692db685d69a24b798458d9",
+      "bytes": 5672
+    },
+    {
+      "path": "references/episode-notes/28_how-artists-find-their-signature-sound-and-wh.md",
+      "sha256": "6d5c7e3c303ab9a4dc5a784248ab6c3351e0175433a5896e559bd10154b11515",
+      "bytes": 5427
+    },
+    {
+      "path": "references/episode-notes/29_how-to-find-the-artist-story-for-your-music-b.md",
+      "sha256": "be252d6b93a8d74bfc31aa94da7f2893f888ebb949ea8d5c06ecd5241e9c4080",
+      "bytes": 6050
+    },
+    {
+      "path": "references/episode-notes/30_stop-thinking-like-an-artist-start-thinking-l.md",
+      "sha256": "002427f23fe097f6eb8db55e0ec20c29200e97ec1c3b0d01b4fb9d696788ded3",
+      "bytes": 5146
+    },
+    {
+      "path": "references/episode-notes/31_7-unspoken-habits-that-made-these-djs-million.md",
+      "sha256": "dbadbf67897a32378dff1d50c158dd7aebd55df26e7654f97bc7adbba9bc664d",
+      "bytes": 5565
+    },
+    {
+      "path": "references/episode-notes/32_live-for-yourself-the-courage-to-be-disliked.md",
+      "sha256": "96c4489cf2aac97c3be538186001537a3a685d8646f3412febba2153efba5098",
+      "bytes": 4699
+    },
+    {
+      "path": "references/episode-notes/33_how-to-visually-upgrade-your-music-brand-the.md",
+      "sha256": "aed85267b19b6a24f08f64279fc2e6e95bd20dee7545e2d5d8df5f2868b00a6c",
+      "bytes": 4579
+    },
+    {
+      "path": "references/episode-notes/34_what-the-f-ck-to-actually-post-for-content-as.md",
+      "sha256": "1a9a803883a96c1f4a79966170ade878fb6c2ae86e285227f43765078a4795f5",
+      "bytes": 6476
+    },
+    {
+      "path": "references/episode-notes/35_can-ai-replace-music-artists.md",
+      "sha256": "c03ad94b4fe02545d766845905b6570d6a18a3fb8af34ec21941d1296e05d6a2",
+      "bytes": 5468
+    },
+    {
+      "path": "references/episode-notes/36_how-to-find-your-music-brand-s-superpower.md",
+      "sha256": "cb699f0b2cec2a8a5b3f734f3a46b7f56055f298846358ffa6477a425e9bec75",
+      "bytes": 5172
+    },
+    {
+      "path": "references/episode-notes/37_how-to-be-unforgettable-as-a-music-artist.md",
+      "sha256": "fef452ad399e29758b38abafb4b47a0362115657a73f95067223d31abad68d05",
+      "bytes": 5745
+    },
+    {
+      "path": "references/episode-notes/38_the-psychology-of-building-a-brand-audiences.md",
+      "sha256": "cd1eef28aecad79943cac178cdea4598e83d93aae5c30078e948d346d5b61c63",
+      "bytes": 6442
+    },
+    {
+      "path": "references/episode-notes/39_the-top-1-millionaire-music-artists-are-maste.md",
+      "sha256": "f7f492fbf4e3f5c63ef52a275feb88939004cfe46a647cb2775ff03c14218d28",
+      "bytes": 6114
+    },
+    {
+      "path": "references/episode-notes/40_how-to-visually-upgrade-your-music-brand-art.md",
+      "sha256": "26b3180bf4c7ec0fbcb745b8feaa88201b0e39822b663864b260750e34c32eeb",
+      "bytes": 7018
+    },
+    {
+      "path": "references/episode-notes/41_music-artists-are-not-ready-for-the-next-phas.md",
+      "sha256": "92cc5dbdefbec406254623ce692596d39b1d3e15dcb11b3c016ccddedfa99af8",
+      "bytes": 6713
+    },
+    {
+      "path": "references/episode-notes/42_i-obsessed-over-music-branding-for-20-years-h.md",
+      "sha256": "a6178e8d2afe28494154391067c3bc5338541a3530cfd440bf2c31a9be847d34",
+      "bytes": 7341
+    },
+    {
+      "path": "references/episode-notes/43_how-to-visually-upgrade-your-music-brand-art.md",
+      "sha256": "ad21e375506cb56c992f83ba57f30556424e677848b9461721dd047272d13bb2",
+      "bytes": 7449
+    },
+    {
+      "path": "references/episode-notes/44_why-being-a-music-artist-in-your-30s-or-40s-i.md",
+      "sha256": "6557138bf5efaffd4f42a198594953631c2f4b3295e9e68dec77208fb3346e03",
+      "bytes": 6290
+    },
+    {
+      "path": "references/episode-notes/45_how-to-become-a-storytelling-genius-for-your.md",
+      "sha256": "afbfebc9b1d33e8cb68869b923eed6fa00ab06c64096f8ac281e4836a8b8cf71",
+      "bytes": 5092
+    },
+    {
+      "path": "references/episode-notes/46_you-re-procrastinating-80-of-your-time-here-s.md",
+      "sha256": "09369a7b831ec8348a2b85701ded16d6b5f73a03f338ee795320b3bb7cfbe74c",
+      "bytes": 6124
+    },
+    {
+      "path": "references/episode-notes/47_how-the-f-ck-to-beat-social-media-algorithms.md",
+      "sha256": "fe902d0406c920716fe666a512a912cf8e831aada0453dfc0eaa4a0fdb2d344e",
+      "bytes": 5691
+    },
+    {
+      "path": "references/episode-notes/49_how-to-build-an-audience-that-is-totally-obse.md",
+      "sha256": "326bcad802d2d7ee4c4edd38fad52897f1e262976b63ecfa86fb7e5bf5f9306c",
+      "bytes": 5626
+    },
+    {
+      "path": "references/episode-notes/50_how-to-upgrade-your-music-brand-the-skrillex.md",
+      "sha256": "19e14ef4fcc607e0e108bf6be7a538cdbfeceba82715d7f65ae7dff9ff15d9b4",
+      "bytes": 6535
+    },
+    {
+      "path": "references/episode-notes/51_how-to-build-a-content-team-for-your-music-pr.md",
+      "sha256": "497cd7d9e91ab41e705e4bf573bc7a25304077d8265ecac98f48922bad71932e",
+      "bytes": 5025
+    },
+    {
+      "path": "references/episode-notes/52_the-hidden-branding-of-john-summit-art-direct.md",
+      "sha256": "0936c58c849765fbe774d00d6f2313ff777ae3d92cf1c74026921c41e40098ea",
+      "bytes": 5760
+    },
+    {
+      "path": "references/episode-notes/53_music-artists-are-not-ready-for-the-next-era.md",
+      "sha256": "ed07571ca1108bedad1125618364f421eefad982dfef169e3b1ba704ce491b52",
+      "bytes": 5099
+    },
+    {
+      "path": "references/episode-notes/54_this-is-your-new-content-strategy-for-music-a.md",
+      "sha256": "0d3c99b6ec4940defa8f9afee394c8adc578141a971d2650e09c8d1a822584ec",
+      "bytes": 5936
+    },
+    {
+      "path": "references/episode-notes/M_7-habits-of-millionaire-music-artists-djs.md",
+      "sha256": "84c0bde7a32caeacaebbcb75c0315026aec406110d77e0df209af89d6883198f",
+      "bytes": 6458
+    },
+    {
+      "path": "references/episode-notes/M_how-to-find-your-brand-s-story.md",
+      "sha256": "143cb6f0047abe2fda83dee89421dbcecec27cfc5a2116ed187fe0c4d4b83b54",
+      "bytes": 5022
+    },
+    {
+      "path": "references/episode-notes/M_how-to-go-from-local-music-artist-to-headl.md",
+      "sha256": "0c2cf4c75c90f201bbaa25140cb0536c0f2bde695893cef6d6f4ffe0ab4435dd",
+      "bytes": 6184
+    },
+    {
+      "path": "references/episode-notes/M_the-new-advantage-women-in-music-have.md",
+      "sha256": "76ae09b458af54f353e1932c2b40230b5a6b6453b25611d36864f3aaab5047a9",
+      "bytes": 5443
+    },
+    {
+      "path": "references/transcripts/01_welcome-to-neighborhood-art-supply.txt",
+      "sha256": "4e608c88a2794053995e3f45182f0e9af50e6ceae50b8ae3067844c9668c4ec2",
+      "bytes": 38429
+    },
+    {
+      "path": "references/transcripts/02_8-key-reasons-why-music-projects-fail-to-grow.txt",
+      "sha256": "3ff25fc342bd5447bb5f1d5455cfccca6b8ed95e34ee91380b5b62059da08657",
+      "bytes": 14723
+    },
+    {
+      "path": "references/transcripts/03_how-to-start-trends-others-will-follow-in-mus.txt",
+      "sha256": "1aa11118667f3436e70948cf2fdc1b776583d7d92c94f72d078f792a3bce423f",
+      "bytes": 51917
+    },
+    {
+      "path": "references/transcripts/04_how-to-find-your-brands-personality-live-bran.txt",
+      "sha256": "64ae79713c5a523cc96dfa879f73a52a1be717d94cbf99673fd676397576a5d7",
+      "bytes": 37686
+    },
+    {
+      "path": "references/transcripts/05_flosstradamus-do-it-different-how-to-make-you.txt",
+      "sha256": "65845401eb9d85c04ae9421d5e965c59962a3ae36bd271ca508923487f5a3cf2",
+      "bytes": 80397
+    },
+    {
+      "path": "references/transcripts/06_stop-wasting-your-time-a-time-management-guid.txt",
+      "sha256": "db2afd7bd92f7775f1bcad17cfedf34fd7c94c8fdef8bbb00cd3a6955c378cc7",
+      "bytes": 11099
+    },
+    {
+      "path": "references/transcripts/07_how-top-artists-build-their-audiences-thru-br.txt",
+      "sha256": "90313bf767221a56fe005b0ccd4d90d502cf5d05bb3c48d8d6cf38b8e76590bd",
+      "bytes": 28854
+    },
+    {
+      "path": "references/transcripts/08_find-your-unique-purpose-live-branding-sessio.txt",
+      "sha256": "a55aed587cf6d5519dc1090b33c2f58000239f61982036dd7e9eee58ec02bc60",
+      "bytes": 19979
+    },
+    {
+      "path": "references/transcripts/09_henry-fong-5-ways-to-create-a-sustainable-car.txt",
+      "sha256": "3ca84ad734ea94a07e6101d352d482c7074778dbc49ec1afbd3b20996c7ccbed",
+      "bytes": 41569
+    },
+    {
+      "path": "references/transcripts/10_how-to-make-your-content-more-shareable-in-15.txt",
+      "sha256": "b2293dc201d6397b4f66b42b73d188b00737ce875f8dc65f6b18d05eeab4e54f",
+      "bytes": 14891
+    },
+    {
+      "path": "references/transcripts/11_wuki-how-to-know-if-you-re-being-authentic.txt",
+      "sha256": "83cd1aa9955de0ecb7938996c508379d9a8b28ea8f7e3966bcee8efdbc27b98e",
+      "bytes": 39215
+    },
+    {
+      "path": "references/transcripts/13_wenzday-how-to-build-a-strong-relationship-wi.txt",
+      "sha256": "6825f478dd468430c0c8a94e9f49a9fedb90a3e876698aa1aa08d2dba016d723",
+      "bytes": 37424
+    },
+    {
+      "path": "references/transcripts/14_chris-alba-4-ways-to-approach-modern-music-br.txt",
+      "sha256": "2b69f4aeea75f207bcc644e2810dafd3be37f61e6cc0b075df7f2a45cc4d3a1f",
+      "bytes": 14123
+    },
+    {
+      "path": "references/transcripts/15_fetish-mindset-is-everything-an-approach-to-m.txt",
+      "sha256": "011c06d5c30b16af6b10d87663d4d36e0bb7ffbbac5d1bc9edf714f1f456f738",
+      "bytes": 57413
+    },
+    {
+      "path": "references/transcripts/17_party-favor-how-to-stand-out-in-a-crowded-spa.txt",
+      "sha256": "2e5314398d3188453dd27f7a74fa2cc0f40cca81b069103642e6a903c353822f",
+      "bytes": 73842
+    },
+    {
+      "path": "references/transcripts/18_the-difference-between-a-50-000-dj-vs-2-000.txt",
+      "sha256": "37a40801da3b61a692a0d617d8b4720c5afdee9946e96f9dab06ab6eb0763cd5",
+      "bytes": 5230
+    },
+    {
+      "path": "references/transcripts/20_this-could-make-you-one-of-the-best-artists-i.txt",
+      "sha256": "e476ed31065570116c785bd4f6f4923c5f13d1100f6f6eaae81d5df2aa2ebc7b",
+      "bytes": 29407
+    },
+    {
+      "path": "references/transcripts/21_a-trak-what-the-f-ck-is-branding-a-trak-on-cu.txt",
+      "sha256": "0eb4aa969a2811ee70a2484577af31ae2677f494ba0261d95071d4e5c02e93a3",
+      "bytes": 24742
+    },
+    {
+      "path": "references/transcripts/22_20-years-of-music-industry-knowledge-in-30-mi.txt",
+      "sha256": "25af67d6035691a6f1285953e26549ad71e50094bb1c3e5dda7209cb6eb180ec",
+      "bytes": 29403
+    },
+    {
+      "path": "references/transcripts/23_saymyname-how-to-find-your-authentic-self-as.txt",
+      "sha256": "ad92643ef2d5194a2d85f94b3cd3d5bd890e8896ce2b312381c08793e37cb59a",
+      "bytes": 26266
+    },
+    {
+      "path": "references/transcripts/24_how-to-build-a-cult-following-becoming-a-mast.txt",
+      "sha256": "bf139e4372fbd3597b129a6991b13fd828e56cbeb9d36c6d4989c861f897259b",
+      "bytes": 30293
+    },
+    {
+      "path": "references/transcripts/25_3-tools-to-make-big-things-happen-for-your-mu.txt",
+      "sha256": "471ddac2e20e8127b075de3934667f2ddda6bb851729289db2c4c3785f56c0b6",
+      "bytes": 13593
+    },
+    {
+      "path": "references/transcripts/26_how-to-attract-fans-and-keep-them-for-life.txt",
+      "sha256": "6d86e98bf5bb94fde65004d969f3c05ceca2222bed180756d54c8d60abce5075",
+      "bytes": 9933
+    },
+    {
+      "path": "references/transcripts/27_storytelling-on-steroids-create-a-cult-fan-ba.txt",
+      "sha256": "bdddcb376402eac1b9c44f1d065719eeedbea5273ed41e5008bc11fa3b3568af",
+      "bytes": 11226
+    },
+    {
+      "path": "references/transcripts/28_how-artists-find-their-signature-sound-and-wh.txt",
+      "sha256": "aa952b23dcb21ec69c8fa16eb044b0feed621998268752a9b61d51ac4cc0da96",
+      "bytes": 26455
+    },
+    {
+      "path": "references/transcripts/29_how-to-find-the-artist-story-for-your-music-b.txt",
+      "sha256": "e738dbd7ede088ecdb11edeae3f9580571af1153d7fdf0f30ff796734d96473e",
+      "bytes": 30458
+    },
+    {
+      "path": "references/transcripts/30_stop-thinking-like-an-artist-start-thinking-l.txt",
+      "sha256": "d92eadc278086895d46c60636658235d551684faa57157a6c4bfea966fe57060",
+      "bytes": 14004
+    },
+    {
+      "path": "references/transcripts/31_7-unspoken-habits-that-made-these-djs-million.txt",
+      "sha256": "2936a38705106dfeb2763f756427457484eea1b0e166527cce4c2495b0969195",
+      "bytes": 21085
+    },
+    {
+      "path": "references/transcripts/32_live-for-yourself-the-courage-to-be-disliked.txt",
+      "sha256": "bca4d3b953e10fa2a57148a3fce26460b484470d347c753d6e7a7019d5f60d2f",
+      "bytes": 9659
+    },
+    {
+      "path": "references/transcripts/33_how-to-visually-upgrade-your-music-brand-the.txt",
+      "sha256": "21a393868fdc87ec76f65d7c022e427cd1079f8fb5ecc6571e96a4209c0ecfd1",
+      "bytes": 15154
+    },
+    {
+      "path": "references/transcripts/34_what-the-f-ck-to-actually-post-for-content-as.txt",
+      "sha256": "f0d3790e23ae3f99a6485eb2f40ddb21a9a5ce27e508acba8d6ecd1c0a2441e3",
+      "bytes": 33034
+    },
+    {
+      "path": "references/transcripts/35_can-ai-replace-music-artists.txt",
+      "sha256": "f7a30813b7fe43a247e6323d3f8f3fcfbf5cba212f60f5a5ef73db0570c13c8b",
+      "bytes": 27555
+    },
+    {
+      "path": "references/transcripts/36_how-to-find-your-music-brand-s-superpower.txt",
+      "sha256": "a9a5985a3ed07c2221e131851a55902e891d048932af192d8d325b974efc9591",
+      "bytes": 27249
+    },
+    {
+      "path": "references/transcripts/37_how-to-be-unforgettable-as-a-music-artist.txt",
+      "sha256": "68e87c73404bb564ba6ee484321647b4cd1e39364137a0d86d0c9bfad658b8e5",
+      "bytes": 24593
+    },
+    {
+      "path": "references/transcripts/38_the-psychology-of-building-a-brand-audiences.txt",
+      "sha256": "5dfc4d530910e2061449896e0ae1625424fc1e73eee39dd89cc6b7d2c80c4248",
+      "bytes": 44406
+    },
+    {
+      "path": "references/transcripts/39_the-top-1-millionaire-music-artists-are-maste.txt",
+      "sha256": "00b6e4979b88f7a73d16a9eaf286e0d8422355c6b46984cb64a4b6643a7d22a0",
+      "bytes": 41062
+    },
+    {
+      "path": "references/transcripts/40_how-to-visually-upgrade-your-music-brand-art.txt",
+      "sha256": "9fd71e702e2ab042cdd1d19e39b3be83192bb2fca6fab82c18924000e247c699",
+      "bytes": 46822
+    },
+    {
+      "path": "references/transcripts/41_music-artists-are-not-ready-for-the-next-phas.txt",
+      "sha256": "eb6d6e33a4b95218d7460d0634dabea0ed0ffe365314231f21852a325be82635",
+      "bytes": 35850
+    },
+    {
+      "path": "references/transcripts/42_i-obsessed-over-music-branding-for-20-years-h.txt",
+      "sha256": "7e23aafdee3bba0b846f1a147aeaa99d01d768f5e92b6eaf93256c508a7c667b",
+      "bytes": 36236
+    },
+    {
+      "path": "references/transcripts/43_how-to-visually-upgrade-your-music-brand-art.txt",
+      "sha256": "02a0bf6d8ffe84c1ef4c90fc8ff7cd2f6e6f7d0b1446b545c286dd8fa27060f7",
+      "bytes": 51434
+    },
+    {
+      "path": "references/transcripts/44_why-being-a-music-artist-in-your-30s-or-40s-i.txt",
+      "sha256": "48ba3ffb6c5f908346c61b4d2977777de24e3106b10db285aa9b72ef29f518b7",
+      "bytes": 28888
+    },
+    {
+      "path": "references/transcripts/45_how-to-become-a-storytelling-genius-for-your.txt",
+      "sha256": "7d07e2c84a7535b8995f77f9db93f56e480d47b295533b2d2bd38af0a3eb376e",
+      "bytes": 26552
+    },
+    {
+      "path": "references/transcripts/46_you-re-procrastinating-80-of-your-time-here-s.txt",
+      "sha256": "ca3e84a717ca36e0416ef824ee056fd9d681547c6e38398be4b76ee5a22ce59e",
+      "bytes": 33002
+    },
+    {
+      "path": "references/transcripts/47_how-the-f-ck-to-beat-social-media-algorithms.txt",
+      "sha256": "e9e7338a305087c9ec8f8bbac47adece6eba666ff4e365fc31ed05c8d3e6eb03",
+      "bytes": 24185
+    },
+    {
+      "path": "references/transcripts/49_how-to-build-an-audience-that-is-totally-obse.txt",
+      "sha256": "16855b4608accd6c1b28102a632a797782e9201531670246f3ccd40791031bda",
+      "bytes": 21702
+    },
+    {
+      "path": "references/transcripts/50_how-to-upgrade-your-music-brand-the-skrillex.txt",
+      "sha256": "caa374c135a6aac7049d8dbb54e9c19d3ed3c43eb3314153ee68f1c558a7316c",
+      "bytes": 34657
+    },
+    {
+      "path": "references/transcripts/51_how-to-build-a-content-team-for-your-music-pr.txt",
+      "sha256": "7f2279ddfe44d9c7decb832341b297815c7df64425c0f242fcfc56a55bb925f9",
+      "bytes": 28203
+    },
+    {
+      "path": "references/transcripts/52_the-hidden-branding-of-john-summit-art-direct.txt",
+      "sha256": "317ee5f897c1a912fcd7d3611a7eb8297b1ab9377233d6473a6855259aae056c",
+      "bytes": 24067
+    },
+    {
+      "path": "references/transcripts/53_music-artists-are-not-ready-for-the-next-era.txt",
+      "sha256": "b33be3a9c9ea9a8fd34b837e032c0f353cde07e273cd70257a4fe0b79d01fa7a",
+      "bytes": 21348
+    },
+    {
+      "path": "references/transcripts/54_this-is-your-new-content-strategy-for-music-a.txt",
+      "sha256": "8296f0bd4383f8e4cf31b5cf4732bdccab6aa96913068a09a1a87798fd0725ef",
+      "bytes": 21544
+    },
+    {
+      "path": "references/transcripts/M_7-habits-of-millionaire-music-artists-djs.txt",
+      "sha256": "9237341cdfe7a7c322fcf6e5e2b1e1ba1aa03fe46513017b380450acd05d1bc0",
+      "bytes": 25892
+    },
+    {
+      "path": "references/transcripts/M_how-to-find-your-brand-s-story.txt",
+      "sha256": "e21b7e151f660c5295b4b1fdff256d69cc0e8824ecd3f44098101592efe20613",
+      "bytes": 29971
+    },
+    {
+      "path": "references/transcripts/M_how-to-go-from-local-music-artist-to-headl.txt",
+      "sha256": "1cd31e1646c63fddde68c6755354458517e6c977224a7bbe4784d983494df1d3",
+      "bytes": 24072
+    },
+    {
+      "path": "references/transcripts/M_the-new-advantage-women-in-music-have.txt",
+      "sha256": "a3473821bf51c9abcb6828d69d9545372d3c7ada8f9200e43c9b37a1b57030a8",
+      "bytes": 23592
+    },
+    {
+      "path": "references/catalog.json",
+      "sha256": "e94eca04b94aeb32e5f5eb912ea3262a8ebc337a45b92c9294f1ee900ebd01de",
+      "bytes": 15282
+    },
+    {
+      "path": "references/manifest.json",
+      "sha256": "f56a7554882cef6b0b6a0bdb157645efeba28fefdb6451dd26abc50af1e714fa",
+      "bytes": 17027
+    },
+    {
+      "path": "references/NAS-DISTILLATION.md",
+      "sha256": "7153b96a864a9b1e8a0e1b7e8247898fc396632b092a8c9998429d1726ba3cec",
+      "bytes": 5919
+    },
+    {
+      "path": "Swim original guide source (not distributed as TypeScript)",
+      "sha256": "3567617a3067145114a458a7af51a0b56eb100f64d44a73eefc86808f86cbe51",
+      "bytes": 19357
+    }
+  ]
+}

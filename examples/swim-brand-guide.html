@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>Swim — worked brand guide example</title><style>*{box-sizing:border-box}body{margin:0;background:white;color:#0a0a0a;font:17px/1.6 "Helvetica Neue",Helvetica,Arial,sans-serif;--paper:#fff;--ink:#0a0a0a;--ink-2:#545454;--ink-3:#686868;--rule:#e6e6e6;--serif:"Iowan Old Style",Georgia,serif;--mono:"SF Mono",Menlo,Consolas,monospace}p{margin:0 0 1em}.lab{font-family:var(--mono);font-size:11.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3);line-height:1.5}.example-note{padding:12px 5vw;background:#f5f4f0;font-size:14px} @media print{.toc,.example-note{display:none!important}.bg-root .part{break-inside:avoid}.bg-root{padding:0!important}body{font-size:11pt}}
+.bg-root { display: block; padding-inline: clamp(18px, 5vw, 64px); padding-block: 0 96px; }
+.bg-root .doc { max-width: 1060px; margin: 0 auto; }
+.bg-root a { color: inherit; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; text-decoration-color: var(--ink-3); }
+.bg-root a:hover { text-decoration-color: var(--ink); }
+.bg-root a:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; border-radius: 2px; }
+.bg-root b, .bg-root strong { font-weight: 700; color: var(--ink); }
+.bg-root em { font-style: italic; }
+
+/* masthead */
+.bg-root .mast { padding-block: clamp(48px, 8vw, 96px) clamp(36px, 5vw, 56px); display: flex; flex-direction: column; gap: 22px; }
+.bg-root .mast h1 { font-family: var(--serif); font-style: italic; font-weight: 400; font-size: clamp(92px, 17vw, 196px); line-height: .86; letter-spacing: -.03em; margin: 0 0 4px; }
+.bg-root .mast .spine { font-family: var(--serif); font-weight: 400; font-size: clamp(25px, 3.2vw, 34px); line-height: 1.18; letter-spacing: -.01em; max-width: 26ch; margin: 0; text-wrap: balance; }
+.bg-root .mast .dek { margin: 0; max-width: 58ch; color: var(--ink-2); }
+.bg-root .toc { display: flex; flex-wrap: wrap; gap: 8px 22px; margin: 14px 0 0; padding: 18px 0 0; list-style: none; border-top: 1px solid var(--rule); }
+.bg-root .toc a { font-family: var(--mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; text-decoration: none; color: var(--ink-2); }
+.bg-root .toc a:hover { color: var(--ink); }
+
+/* parts */
+.bg-root .part { display: grid; grid-template-columns: 190px minmax(0, 1fr); gap: clamp(24px, 4vw, 56px); padding-block: clamp(44px, 6vw, 72px); border-top: 1px solid var(--rule); scroll-margin-top: 8px; }
+.bg-root .part > .lab { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 28px); align-self: start; padding-top: 12px; }
+.bg-root .body { display: flex; flex-direction: column; gap: 18px; max-width: 700px; min-width: 0; }
+.bg-root .body p { margin: 0; }
+.bg-root h2 { font-family: var(--serif); font-weight: 400; font-size: clamp(31px, 4.2vw, 46px); line-height: 1.06; letter-spacing: -.015em; margin: 0 0 6px; text-wrap: balance; }
+.bg-root h3 { font-family: var(--serif); font-style: italic; font-weight: 400; font-size: 23px; line-height: 1.2; margin: 20px 0 0; text-wrap: balance; }
+.bg-root .note { color: var(--ink-2); font-size: 15.5px; }
+.bg-root .big { font-family: var(--serif); font-style: italic; font-weight: 400; font-size: clamp(27px, 3.5vw, 40px); line-height: 1.14; letter-spacing: -.01em; text-wrap: balance; margin: 4px 0; }
+.bg-root .formula { font-family: var(--serif); font-size: clamp(21px, 2.4vw, 26px); line-height: 1.32; border-block: 1px solid var(--rule); padding-block: 18px; text-wrap: balance; }
+
+/* spec lists */
+.bg-root .spec { margin: 0; display: flex; flex-direction: column; }
+.bg-root .spec > div { display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 4px 24px; padding-block: 14px; border-top: 1px solid var(--rule); }
+.bg-root .spec > div:last-child { border-bottom: 1px solid var(--rule); }
+.bg-root .spec dt { font-family: var(--mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--ink); padding-top: 4px; line-height: 1.45; }
+.bg-root .spec dd { margin: 0; color: var(--ink-2); }
+.bg-root .spec.glance dd { color: var(--ink); font-size: 18.5px; line-height: 1.5; }
+.bg-root .spec.wide > div { grid-template-columns: 190px minmax(0, 1fr); }
+.bg-root .spec .off dt, .bg-root .spec .off dd { color: var(--ink-3); }
+
+.bg-root ul.list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+.bg-root ul.list li { position: relative; padding-left: 26px; color: var(--ink-2); }
+.bg-root ul.list li::before { content: ""; position: absolute; left: 0; top: .8em; width: 13px; height: 1px; background: var(--ink); }
+
+.bg-root blockquote.nb { margin: 12px 0 0; padding: 20px 0 0; border-top: 1px solid var(--ink); display: flex; flex-direction: column; gap: 12px; }
+.bg-root blockquote.nb p { font-family: var(--serif); font-style: italic; font-size: clamp(20px, 2.3vw, 24px); line-height: 1.4; color: var(--ink); margin: 0; }
+
+.bg-root .cols2 { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
+.bg-root .cols2 > div { display: flex; flex-direction: column; gap: 12px; }
+
+.bg-root .foot { border-top: 1px solid var(--rule); padding-top: 26px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px; }
+
+@media (max-width: 760px) {
+  .bg-root .part { grid-template-columns: 1fr; gap: 12px; }
+  .bg-root .part > .lab { position: static; padding-top: 0; }
+}
+@media (max-width: 640px) {
+  .bg-root .spec > div, .bg-root .spec.wide > div { grid-template-columns: 1fr; }
+  .bg-root .cols2 { grid-template-columns: 1fr; }
+}
+</style></head><body><aside class="example-note">Worked example: Swim’s finished guide. Learn from the structure and connections; develop your own answers.</aside><div class="bg-root"><div class="doc">
+
+<header class="mast">
+  <p class="lab">Brand guide · September 2026</p>
+  <h1>Swim</h1>
+  <p class="spine">A lover learning to feel everything, in a world built to scroll past it.</p>
+  <p class="dek">The identity, sound, and world behind the project, in one place. Use it to brief collaborators, to check new work against, and to decide what Swim is and what it isn’t.</p>
+  <ul class="toc" aria-label="Contents">
+    <li><a href="#glance">At a glance</a></li>
+    <li><a href="#movie">The movie</a></li>
+    <li><a href="#character">The character</a></li>
+    <li><a href="#core">Emotional core</a></li>
+    <li><a href="#sound">The sound</a></li>
+    <li><a href="#projects">Side projects</a></li>
+    <li><a href="#audience">The audience</a></li>
+    <li><a href="#beliefs">Beliefs</a></li>
+    <li><a href="#look">The look</a></li>
+    <li><a href="#showing-up">Showing up</a></li>
+    <li><a href="#game">The game</a></li>
+  </ul>
+</header>
+
+<main>
+
+<section class="part" id="glance">
+  <div class="lab">At a glance</div>
+  <div class="body">
+    <h2>Swim in four lines</h2>
+    <dl class="spec glance">
+      <div><dt>Who</dt><dd>A lover who goes to the depths to feel all of it, the romance and the tragedy, and comes back with songs.</dd></div>
+      <div><dt>Sound</dt><dd>Soulful indie R&amp;B. A raspy, intimate voice sunk into washed-out reverb, washed guitar, human drums, real keys, textural synths.</dd></div>
+      <div><dt>Movie</dt><dd>A psychedelic Richard Linklater film. Coming of age, consciousness, and romance, shot like a festival darling.</dd></div>
+      <div><dt>Enemy</dt><dd>Content culture. Music made to grab attention instead of hold it.</dd></div>
+    </dl>
+    <h3>The one-liner</h3>
+    <p class="big">“A lover learning to feel everything, in a world built to scroll past it.”</p>
+    <p>“Learning to feel everything” is the inner journey. “A world built to scroll past it” is the outer enemy. Every release and every post should trace back to this line.</p>
+    <p class="note">The casual shorthand for the sound is <b>bedroom soul juice</b>.</p>
+  </div>
+</section>
+
+<section class="part" id="movie">
+  <div class="lab">The movie</div>
+  <div class="body">
+    <h2>The soundtrack to a psychedelic Linklater film</h2>
+    <p>Part <em>Waking Life</em>, part <em>Boyhood</em>, part <em>Before Sunrise</em>, with the look of an indie festival darling. It’s about the human experience: romance, coming of age, and the big questions of life and consciousness, told poetically.</p>
+    <h3>Heightened, not invented</h3>
+    <p>The world is real in its emotions. Light, sound, and cinematography push it toward the surreal so those emotions can land. Nothing fantastical, nothing in costume.</p>
+    <h3>Literary touchstones</h3>
+    <ul class="list">
+      <li>The poetry and romance of <em>Shantaram</em></li>
+      <li>The wisdom of Pema Chödrön, and her steadiness in the face of suffering</li>
+      <li>The aching beauty of Kaveh Akbar’s <em>Martyr!</em></li>
+    </ul>
+  </div>
+</section>
+
+<section class="part" id="character">
+  <div class="lab">The character</div>
+  <div class="body">
+    <h2>The Lover, with the Sage underneath</h2>
+    <dl class="spec">
+      <div><dt>Lover<br>dominant</dt><dd>Romanticizes life. Wants to feel it all, fully, and to live a rich life.</dd></div>
+      <div><dt>Sage<br>secondary</dt><dd>Seeks truth through consciousness and art. Wants self-understanding and self-actualization. There’s a mystic streak, but it stays grounded and never becomes a spiritual costume.</dd></div>
+      <div><dt>Creator<br>the craft</dt><dd>Building worlds around a concept is how Swim expresses himself. It’s his method rather than his motivation.</dd></div>
+      <div><dt>Plot</dt><dd><b>Voyage and Return.</b> He goes into the depths (the night, the road, the hard feelings) and comes home changed, with a song.</dd></div>
+      <div><dt>Inner villain</dt><dd>His own conditioning.</dd></div>
+      <div><dt>Outer enemy</dt><dd>Content culture.</dd></div>
+    </dl>
+    <blockquote class="nb">
+      <span class="lab">From the notebook</span>
+      <p>“I’m the lover, the mystic, the creator. I find romance in life, in the tragedy and in emotional expression. I go to the depths to find it, express it through concept, and bring those concepts together through art. I see art as the medium to work through suffering, the tragedy of life.”</p>
+    </blockquote>
+  </div>
+</section>
+
+<section class="part" id="core">
+  <div class="lab">Emotional core</div>
+  <div class="body">
+    <h2><em>It aches, it moves, and it takes you somewhere.</em></h2>
+    <dl class="spec">
+      <div><dt>Aches</dt><dd>The melancholy. Beauty found inside the tragedy, “beautiful from a different place.” Tender, honest, raw.</dd></div>
+      <div><dt>Moves</dt><dd>The vitality. Groove, soul, a little swagger. The saddest song still has a pulse, and the dance track still starts from the melancholy.</dd></div>
+      <div><dt>Takes you<br>somewhere</dt><dd>Something soulful that people can attach to and lose themselves in: rhythms to sink into, songs that travel.</dd></div>
+    </dl>
+    <p><b>The stance is grounded.</b> Swim feels everything without performing it.</p>
+    <h3>The test</h3>
+    <p>Ask it of every song, every visual, every post. Does it ache? Does it move? Does it take me somewhere? A track that only aches drifts into the background. A track that only moves is pop, which is the lane Swim is running away from.</p>
+    <blockquote class="nb">
+      <span class="lab">From the notebook</span>
+      <p>“Even when it’s danceable, even when it’s money, I come from a melancholic place, because it’s the feeling that this is beautiful from a different place. It’s soulful. It’s slightly swaggy.”</p>
+    </blockquote>
+  </div>
+</section>
+
+<section class="part" id="sound">
+  <div class="lab">The sound</div>
+  <div class="body">
+    <h2>The core: <em>soulful indie R&amp;B</em></h2>
+    <p>Somewhere between Mac Miller, River Tiber, Dijon, Mk.gee, and Leif Vollebekk. Atmospheric, textural, and rich in production, and never pop. The whole world exists as a playground for the voice to live inside of.</p>
+    <h3>Apollo in the approach, Dionysus in the sound</h3>
+    <p><b>The approach is Apollonian.</b> Swim treats the craft, the art, and the poetry as high art, made to outlast shifts in taste while moving with the cultural forefront. The voice comes from the same place: melancholic, poetic reflection, rather than the direct, boyish storytelling of Steve Lacy or Jon Bellion.</p>
+    <p><b>The sound is Dionysian.</b> The arrangement and the mix are vital, raw, and alive, the way Dijon and Jai Paul arrange and mix: metallic guitar, drums that go off, unexpected turns, nothing polished into place.</p>
+    <p>Considered in what it says, alive in how it sounds. Check every track against both halves: is the writing reflective and poetic enough, and is the production alive enough?</p>
+
+    <h3>Signature ingredients</h3>
+    <p class="note">If someone copied these, people should notice.</p>
+    <ul class="list">
+      <li><b>The voice as an instrument.</b> Intimate, raspy, laidback, mixed into the track under washed-out plate reverb.</li>
+      <li><b>Washed, metallic guitar.</b></li>
+      <li><b>Human drums</b> with real feel.</li>
+      <li><b>Texture.</b> Textural synths, real keys, and small chaotic sound details.</li>
+      <li><b>The pen.</b> Reflective, poetic writing about consciousness, longing, and romance, with Mac’s flow for swagger.</li>
+    </ul>
+
+    <h3>Production palette</h3>
+    <dl class="spec">
+      <div><dt>Voice</dt><dd>Laidback and raspy, which is what lets it live inside the mix rather than sit on top of it. Intimate and close, in washed-out plate reverb. It comes from melancholic, poetic reflection. The high, emotive moments are where it breaks loose.</dd></div>
+      <div><dt>Guitar</dt><dd>Washed and metallic, groove first. The Dijon and Mk.gee edge, with a hint of surf in the wash.</dd></div>
+      <div><dt>Drums</dt><dd>The style changes from song to song: a simple indie kit, a chopped break, or crushed Mk.gee and Dijon-style drums (Justin Bieber’s “Yukon” lives here). They are always human, textured, and warm, never the clean pop drum, and free to go off when a song needs release.</dd></div>
+      <div><dt>Keys &amp; synths</dt><dd>Real keys. Beautiful, textural synths. 80s warmth.</dd></div>
+      <div><dt>Texture</dt><dd>Atmospheric and layered, with small chaotic sound elements. Imperfections stay in when they make it feel alive.</dd></div>
+      <div><dt>Writing</dt><dd>Consciousness, longing, romance, the unfolding. Melancholic, poetic reflection, never literal and never direct storytelling. Always from his own experience and realizations, never instruction. Mac’s flows carry the swagger.</dd></div>
+      <div><dt>Never</dt><dd>Pop sheen. A vocal parked on top of the mix. Hooks engineered for reels. Literal lyrics. Direct, boyish storytelling.</dd></div>
+    </dl>
+
+    <h3>References, and what each one is for</h3>
+    <dl class="spec wide">
+      <div><dt>River Tiber<br>Kid Apollo</dt><dd>Softness and texture. The voice pulled back into the track.</dd></div>
+      <div><dt>Dijon · Mk.gee<br>Jai Paul</dt><dd>Rawness and vitality, and the model for a living arrangement and mix. Metallic guitar, unruly drums, tender and honest with an 80s edge.</dd></div>
+      <div><dt>Mac Miller</dt><dd>The flow. Melancholy with swagger.</dd></div>
+      <div><dt>Leif Vollebekk</dt><dd>Honesty of expression. The most Apollonian touchstone.</dd></div>
+      <div class="off"><dt>Not this lane<br>Steve Lacy · Dominic Fike<br>Jon Bellion</dt><dd>Direct, boyish storytelling. The voice narrates instead of reflecting, and the whole thing sits too close to pop.</dd></div>
+    </dl>
+    <p class="formula">Dijon and Mk.gee <em>rawness</em> × River Tiber <em>texture</em> × Mac Miller’s <em>pen</em>, with Leif Vollebekk’s <em>honesty</em> underneath.</p>
+  </div>
+</section>
+
+<section class="part" id="projects">
+  <div class="lab">Side projects</div>
+  <div class="body">
+    <h2>Two more rooms in the same world</h2>
+    <p>Jazz and dance are separate projects, released as their own bodies of work. They share Swim’s world and emotional core, and they sit alongside the main sound rather than inside it.</p>
+
+    <h3>The jazz project</h3>
+    <p>Live, rhythm-led music to lose yourself in. The drums sit at the center, played live, layered and shifting, and the songs travel through sections instead of looping.</p>
+    <dl class="spec">
+      <div><dt>References</dt><dd>Hiatus Kaiyote, Yussef Dayes, Moses Yoofee Trio.</dd></div>
+      <div><dt>The rule</dt><dd>The rhythm can be complex. The feeling has to stay simple enough to hold. Hiatus Kaiyote do this well: the groove wanders everywhere, and the voice and melody are always something to hold onto.</dd></div>
+    </dl>
+
+    <h3>The dance project: motion as release</h3>
+    <p>The same feeling as the core songs, moved through the body instead of held still. These tracks are about emotional release through movement itself. They are not party music.</p>
+    <p>The core already sounds alive. In the dance project, that vitality moves into the body: synths up front, the tempo up, movement in charge. The voice still comes from the same reflective place, and the melancholy stays. It’s grief, longing, and love you finally get to move through rather than escape from, the Lover’s want to feel everything carried into the body.</p>
+    <dl class="spec">
+      <div><dt>Sound</dt><dd>Synth-led and upbeat, with an 80s and synthwave pulse and driving drums. The voice is free to soar here, where the core keeps it tucked into the mix.</dd></div>
+      <div><dt>Collaborators</dt><dd>Sexpop (Austin). Urban Heat (synthwave).</dd></div>
+      <div><dt>The test</dt><dd>It still has to ache. If a track only makes people want to party, it belongs to someone else. If it makes them move because of what they feel, it’s Swim.</dd></div>
+      <div><dt>Never</dt><dd>Partying for its own sake, hype drops, empty euphoria, hands-in-the-air energy.</dd></div>
+      <div><dt>The look</dt><dd>Motion rather than the party. A body moving alone in the dark, the night drive, light streaking past, the sweat after the release. Never the crowd shot.</dd></div>
+    </dl>
+  </div>
+</section>
+
+<section class="part" id="audience">
+  <div class="lab">The audience</div>
+  <div class="body">
+    <h2>Why people follow</h2>
+    <dl class="spec">
+      <div><dt>Sameness</dt><dd><b>“He feels what I feel.”</b> Swim says out loud what they feel and rarely say: the longing, the melancholy, the search. He does it vulnerably and humbly, never preachy or polished, so they recognize themselves in him.</dd></div>
+      <div><dt>Attraction</dt><dd><b>“It makes my life feel like a film.”</b> Nostalgia for now. The sound and the visuals turn a drive, a walk, or a late night into a scene they already miss while it’s still happening.</dd></div>
+      <div><dt>Aspiration</dt><dd><b>“I want to be that free.”</b> Swim feels everything and says it out loud. Fans want that freedom for themselves, and the creatives among them see a model for making art instead of content.</dd></div>
+      <div><dt>Guidance</dt><dd><b>“He’s on the same path, and he tells me what he finds.”</b> Swim writes about art and consciousness from his own experience: what he noticed, what cracked open, what he’s still unsure about. He shares realizations and never teaches. There’s no “you should” anywhere in it.</dd></div>
+    </dl>
+    <p class="note">Every post should give people at least one of these. A post that gives none is just content.</p>
+    <h3>Nostalgia for now</h3>
+    <p class="big">“This life is a movie, man.”</p>
+    <p>Swim gives people nostalgia for the moment they’re in: the sense, while it’s happening, that this is already a scene worth remembering. Behind it is a bigger belief. Reality is malleable, and a life lived with attention is a work of art. The Lover romanticizes his own life, and the listener walks away ready to romanticize theirs.</p>
+    <h3>What a fan feels is true about themselves</h3>
+    <p class="big">“I feel everything. I have taste. I’m doing the inner work for real, and I want to be free enough to say all of it.”</p>
+    <p class="note">The long version: someone who feels deeply, has refined taste in art, holds the full range of emotional experience, pays grounded attention to their body and inner life (never the spiritual costume), feels longing, and wants to express it raw and free.</p>
+    <h3>The promise</h3>
+    <p><b>Every release is worth your attention.</b> Each piece is made as art and held to a standard. The visuals build a world that serves the music, never the algorithm.</p>
+  </div>
+</section>
+
+<section class="part" id="beliefs">
+  <div class="lab">Beliefs</div>
+  <div class="body">
+    <h2>What Swim stands for</h2>
+    <div class="cols2">
+      <div>
+        <span class="lab">We believe</span>
+        <ul class="list">
+          <li>in feeling everything, fully</li>
+          <li>in exploring the nature of consciousness</li>
+          <li>that art can transform suffering and make sense of the senseless</li>
+          <li>that the world is beautiful and full of suffering, and that this is life</li>
+          <li>that reality is malleable, and a life lived with attention is a work of art</li>
+        </ul>
+      </div>
+      <div>
+        <span class="lab">We don’t believe</span>
+        <ul class="list">
+          <li>in making things to grab attention instead of holding it</li>
+          <li>in the spiritual costume, awakening worn as an aesthetic</li>
+          <li>that faster and more is better</li>
+          <li>in numbing out or pretending everything is fine</li>
+        </ul>
+      </div>
+    </div>
+    <h3>The enemy</h3>
+    <p>Literal, attention-grabbing pop music and reels. The content engine of fast-moving media.</p>
+  </div>
+</section>
+
+<section class="part" id="look">
+  <div class="lab">The look</div>
+  <div class="body">
+    <h2>Raw, surreal, artful, cinematic, honest</h2>
+    <p>Refined taste. Apollonian, with room to flex. Every visual is a scene from the same movie: cohesive short-film stories made with close attention to cinematography.</p>
+    <h3>Shooting rules</h3>
+    <dl class="spec">
+      <div><dt>Honest</dt><dd>Real skin, real places, no heavy retouching.</dd></div>
+      <div><dt>Cinematic</dt><dd>Light that comes from a real source in the scene. Shoot in the Linklater hours: dusk, the long night, first light.</dd></div>
+      <div><dt>Surreal</dt><dd>One heightened element per frame, whether light, color, or time. Never fantasy props.</dd></div>
+      <div><dt>Restraint,<br>then release</dt><dd>Still, composed frames, with one moment of motion or blur in each piece.</dd></div>
+      <div><dt>One world</dt><dd>Short films rather than posts. Every piece belongs to the same world.</dd></div>
+    </dl>
+    <h3>Water</h3>
+    <p>The name already does brand work. The depths, the wet reverb, the washed guitar, the flow, the voyage. Water and immersion can run through the visuals as a recurring motif.</p>
+  </div>
+</section>
+
+<section class="part" id="showing-up">
+  <div class="lab">Showing up</div>
+  <div class="body">
+    <h2>Consistent without becoming the enemy</h2>
+    <p>Swim’s enemy is content culture, yet audiences still grow when an artist shows up often in one recognizable format. The way through is to make the repeatable thing art-shaped. Every post is a fragment of the movie and never bait.</p>
+    <h3>Possible formats</h3>
+    <ul class="list">
+      <li>A recurring short-film vignette</li>
+      <li>Bedroom sessions, shot in the world’s look</li>
+      <li>A poem or voice-memo drop</li>
+    </ul>
+    <p class="note">Pick one and commit to it.</p>
+  </div>
+</section>
+
+<section class="part" id="game">
+  <div class="lab">The game</div>
+  <div class="body">
+    <h2>Best art now, then the audience, then the revenue</h2>
+    <p>The strategy is to make the best art possible right now, build an audience from that editorial work, and let revenue follow the audience.</p>
+    <dl class="spec">
+      <div><dt>Next 12–24<br>months</dt><dd>Daily skill work on guitar, voice, and beats. Writing projects.</dd></div>
+      <div><dt>Ten years</dt><dd>Five albums, festival tours, $500K a year.</dd></div>
+    </dl>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <span class="lab">Swim · Brand guide</span>
+  <span class="lab"><a href="https://swim.art/">swim.art</a></span>
+</footer>
+
+</div></div></body></html>

@@ -1,0 +1,5 @@
+.DS_Store
+artist-sessions/
+personal-outputs/
+.env
+.env.*
